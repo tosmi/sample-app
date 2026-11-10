@@ -24,7 +24,7 @@ spec:
       namespace: sample-app
     spec:
       containers:
-        - image: ghcr.io/tosmi/sample-app:1.0
+        - image: ghcr.io/tosmi/sample-app:2.0
           imagePullPolicy: Always
           name: container-0
           ports:
